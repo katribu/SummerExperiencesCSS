@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background:rgb(249, 243, 243);
+}
+
+/*  =================== HEADER ========================= */
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+header {
+    color: rgb(237, 227, 227);
+    width: 100vw;
+    background-color: #6e3d24;
+    height: 500px;
+}
+
+/* =================== NAV ========================= */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    align-items: flex-end;
+    /* border: white 2px solid; */
+    padding: 30px;
+    position: absolute;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin-right: 30px;
+}
+
+.links {
+    /* border: black dotted 2px; */
+    flex: 2;
+}
+
+#signUp-btn {
+    background: none;
+    color: white;
+    border: none;
+    font-weight: bolder;
+}
+
+#signUp-btn:hover,
+#signUp-btn:focus {
+    cursor: pointer;
+}
+
+/*  ================== HEADER TEXT ====================== */
+
+.sm-font {
+    font-size: 10px;
+    line-height: 2em;
+}
+
+h1 {
+    line-height: 1em;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+#discover-btn {
+    background-color: #ff8a6c;
+    border-radius: 16px;
+    font-family: inherit;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    padding: 1em 1.5em;
+    margin-top: 1.25em;
+    letter-spacing: 1px;
+}
+
+#discover-btn:hover,
+#discover-btn:focus {
+    cursor: pointer;
+}
+
+/* ===================== 4 LOGOS MIDDLE OF PAGE =================== */
+.logoContainer {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    transform: translateY(-70px)
+}
+.logos {
+    background: white;
+    padding: 20px 10px;
+    text-align: center;
+    width: 20%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logos h3 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.fourLogos {
+    width: 40px;
+    margin: 0 auto;
+    flex:1;
+}
+
+
+/*  ===================== GRID IMAGES ========================= */
+.mainTitleDiv{
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+.mainTitleDiv h2{
+    font-family:'Archivo Black', sans-serif;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 0 auto;
+    justify-content: center;
+    width: 80%;
+}
+
+.nature img {
+    width: 100%;
+
+}
+
+.viewAllBtnContainer {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.viewAllBtn {
+    background:none;
+    border: solid 1.5px #ff8a6c;
+    padding: 10px 50px;
+    font-family: inherit;
+    color: #ff8a6c;
+    font-weight: bold;
+    border-radius: 25px;
+    margin: 50px 0;
+}
+.card{
+    background: white;
+    border-radius: 10px;
+}
+
+.nature {
+    padding: 30px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nature h4 {
+    margin: 0;
+    font-size: 14px;
+    flex: 1;
+}
+
+.costPerNight {
+    color:#ff8a6c;
+    font-weight: bold;
+    font-size:12px;
+    background: white;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    transform: translateY(-20px);
+}
+
+.nature p {
+    font-size: 10px;
+}
+
+.readMore {
+    background: rgb(234, 232, 232);
+    color: #8d8d8d;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 25px;
+}
